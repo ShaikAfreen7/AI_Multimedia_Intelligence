@@ -1,0 +1,5 @@
+# Save a sample sentiment text
+sample_text = "I am really happy with the service provided. Everything was perfect!"
+
+with open("data/test_text.txt", "w", encoding="utf-8") as f:
+    f.write(sample_text)

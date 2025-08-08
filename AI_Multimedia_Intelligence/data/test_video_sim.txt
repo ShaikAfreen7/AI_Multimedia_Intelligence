@@ -1,0 +1,11 @@
+# Simulate video frames/events (for demo)
+simulated_video = """
+Frame 1: Normal
+Frame 2: Normal
+Frame 3: Sudden motion detected
+Frame 4: Object left unattended
+Frame 5: Anomaly suspected
+"""
+
+with open("data/test_video_sim.txt", "w", encoding="utf-8") as f:
+    f.write(simulated_video.strip())
